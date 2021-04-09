@@ -1,16 +1,17 @@
-# Template_PHP_MySQL_Nginx
-PHP, MySQL, Nginxのテンプレート
+# SelfMadeHttpHeader_PHP
+
+HTTPレスポンスヘッダをGetパラメータから生成する。HTTPレスポンスヘッダインジェクションの調査。
 
 ## 起動
 
-```
+``` sh
 docker-compose up -d
 ```
 
 ## URL
 
-[http://localhost:8080/index.php](http://localhost:8080/index.php)
+- [http://localhost:8080](http://localhost:8080)
 
 ## 参考
 
-- [Qiita:DockerによるPHP開発環境構築（PHP + MySQL + Nginx）](https://qiita.com/nemui_/items/f911be7ffa4f29293fd5)
+- [改行コード(HTML, Java, URL & エスケープシーケンス)](http://code.cside.com/3rdpage/jp/newLine.html)
